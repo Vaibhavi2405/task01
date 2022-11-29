@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins';
+    line-height: 1.7em;
+
+}
+
+a{
+    text-decoration: none;
+    color: rgb(207, 206, 224);
+}
+
+.container{
+    max-width: 1100px;
+    margin:auto;
+}
+
+.lead{
+    font-size: 16px;
+    padding: 10px 10px;
+    text-align: justify;
+}
+
+.btn{
+    display: inline-block;
+    padding: 07px 16px;
+    background: rgb(107, 5, 133);;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 03px;
+    color:rgba(255, 255, 255, 0.938);
+    transition: all 0.3;
+}
+
+.clr{
+    clear: both;
+}
+
+/* Close Utality Classes */
+
+#navbar{
+    background: #650893;
+    overflow: auto;
+}
+
+#navbar h1{
+    float: left;
+    padding-top: 20px;
+}
+
+#navbar ul{
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li{
+    float: left;
+}
+
+#navbar ul li a{
+    display: block;
+    padding: 20px;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current{
+    background: #7a0697;
+    transition: all 0.5s;
+}
+
+/* Showcase Area */
+#showcase{
+    background: url('https://cdn.wallpapersafari.com/74/49/F7dPYn.jpg') no-repeat
+    center center/cover;
+    height: 600px;
+    color: #fff;
+}
+
+.showcase-content{
+    padding-top: 170px;
+    color: #333;
+}
+
+.showcase-content h2{
+   font-size: 60px;
+   line-height: 1.9em;
+ }
+
+ .showcase-content p{
+    font-size: 20px;
+    margin-bottom: 20px;
+ }
+
+ .showcase-content .btn:hover{
+    background: #43ea5c;
+    border: none;
+    color:rgb(255, 255, 255);
+    transition: all 0.3s;
+ }
+
+/* About Section */
+
+ .about{
+    height: 350px;
+    margin-top: 40px;
+ }
+
+ .about h3{
+    width: 100%;
+    border-bottom: 2px solid  #ddd;
+ }
+
+ .about h3 span{
+    background:  rgb(111, 8, 132);;
+    padding: 10px 22px;
+    color: rgb(239, 237, 237);
+    text-align: center;
+    display: inline-block;
+ }
+/* Close */
+
+
+#services h3{
+    width: 100%;
+    border-bottom: 0.5px solid #ddd;;
+ }
+
+#services h3 span{
+    background: rgb(106, 5, 137);
+    padding: 10px 22px;
+    color: rgb(249, 239, 239);
+    text-align: center;
+    display: inline-block;
+ }
+
+ #services .box{
+    float: left;
+    width: 33.33%;
+    padding: 45px;
+    text-align: center;
+    margin: 30px 0px;
+ }
+
+ .bg-primary{
+ background: #810594;
+    color: rgb(250, 246, 246);
+ }
+
+ .light-gray{
+    background: rgb(9, 112, 126);
+ }
+
+ #services h2{
+  margin-bottom: 25px;
+ }
+
+/* Author */
+
+#authors h3{
+    width: 100%;
+    border-bottom: 0.5px solid rgb(91, 6, 137);;
+ }
+
+ #authors h3 span{
+    background: rgb(125, 7, 148);
+    padding: 10px 22px;
+    color: rgb(244, 229, 229);
+    text-align: center;
+    display: inline-block;
+ }
+
+#authors{
+    background: url('') no-repeat center;
+    height: 600px;
+    padding-top: 40px ;
+
+ }
+
+.auth{
+    float: left;
+    height: 500px;
+    width: 33%;
+    color: rgb(16, 14, 14);
+    padding: 20px;
+    text-align: center;
+    margin: 20px 01px;
+}
+
+.auth img{
+    border-radius: 50%;
+}
+
+.names{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Contact Us */
+#contact h3{
+    width: 100%;
+    border-bottom: 0.5px solid rgb(111, 7, 142);;
+    margin-bottom: 35px;
+}
+
+#contact h3 span{
+    background: rgb(103, 5, 130);
+    padding: 10px 22px;
+    color: #333;
+    text-align: center;
+    display: inline-block;
+}
+
+#contact .form-group{
+    margin-bottom: 20px;
+}
+
+.contact-form label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(85, 5, 101);
+}
+
+#contact textarea{
+    height: 200px;
+    width: 100%;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus{
+    outline: none;
+    border-color: #660e89;
+}
+
+
+/* Footer */
+
+#main-footer{
+    background: #6b0b9c;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    color:#fff;
+}
